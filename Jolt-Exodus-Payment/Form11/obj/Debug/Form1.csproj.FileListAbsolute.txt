@@ -1,0 +1,2 @@
+D:\GithubNew\3\Exodus Payment\ExodusPaym\Jolt-Exodus-Payment\Form11\obj\Debug\Form1.csproj.AssemblyReference.cache
+D:\GithubNew\3\Exodus Payment\ExodusPaym\Jolt-Exodus-Payment\Form11\obj\Debug\Form1.csproj.CoreCompileInputs.cache
